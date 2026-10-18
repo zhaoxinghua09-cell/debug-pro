@@ -1,0 +1,55 @@
+# debug-pro (7 步标准调试协议) — 完整文本
+
+本文件为 llms.txt 标准的「完整版」，供长上下文模型一次性读取本仓库的完整说明。
+
+## 这是什么
+
+`debug-pro` 是一个 Agent Skill 发布包，分类 开发工具 / Debugging，版本 1.0.0。
+
+一句话：提供 7 步标准调试协议 + 多语言调试命令，系统性识别、验证、修复软件缺陷——用于回答「代码报错怎么查」「这个 bug 到底在哪」「改了还是不对怎么办」。支持 Python / JavaScript / Swift / CSS / 网络 / Git Bisect。
+
+## 解决什么问题
+
+用 7 步协议把「报错→定位→最小复现→修复→验证」走成可审计流程。对应典型提问：
+
+```text
+「这段代码报错了，帮我按步查」
+「这个 bug 到底在哪」
+「改了还是不对，怎么一步步定位」
+```
+
+## 特性
+
+- 7 步标准协议：复现 → 定位 → 最小复现 → 假设 → 验证 → 修复 → 回归，不跳步
+- 多语言命令库：Python / JavaScript / Swift / CSS / 网络 / Git Bisect 各有对应排查命令
+- 真实参照法：每步结论挂到可复现实测证据（日志 / 断点 / 最小复现），不靠猜测改代码
+- 最小复现优先：先把问题收敛到最小用例，再动手改
+- 通用方法论工具：非医疗器械 / 非医疗软件，无疗效或临床声明
+- 多语种：中 / 英 / 日 / 韩 / 西 / 法 / 德 / 阿（核心 8 种）
+
+## 快速开始
+
+```bash
+# 1. 克隆本仓库
+git clone https://github.com/zhaoxinghua09-cell/debug-pro.git
+cd debug-pro
+
+# 2. 查看技能主文件（7 步协议、各语言命令、触发词）
+cat SKILL.md
+
+# 3. 把技能目录放进你的 Agent 技能目录（示例：WorkBuddy）
+#    cp -r . ~/.workbuddy/skills/debug-pro/
+```
+
+## 触发词
+
+调试协议 · debug · bug 定位 · 最小复现 · git bisect · 断点 · 日志 · troubleshooting · debugging · python · javascript。
+
+## 许可与权利
+
+MIT 许可。权利人「赵兴华 / Steven Zhao·China」。MedXpert、SynomosAI、LGD 等为项目标识，均未申请实体注册、未申请商标注册。完整条款见 LICENSE。联系：zhaoxinghua06@126.com ｜ ORCID 0009-0001-0512-1237。
+
+## 链接
+
+- 仓库: https://github.com/zhaoxinghua09-cell/debug-pro
+- 技能主文件: https://github.com/zhaoxinghua09-cell/debug-pro/blob/main/SKILL.md
