@@ -16,6 +16,7 @@ python demo/run_demo.py
 ## 输入文件
 
 - `demo\RUN-LOG.txt`
+- `demo\SAMPLE-IO.md`
 - `demo\repro_steps.md`
 - `demo\sample_error.txt`
 
@@ -51,4 +52,4 @@ verdict=FAIL missing=['版本环境', '期望与实际']
 
 - 输出中的日期、数字、人名均能在输入文件里逐字找到；找不到即为缺陷。
 - 输出结构应与 SKILL.md 声明的骨架一致。
-- 生成时间：2026-11-19T01:10:08
+- 生成时间：2026-11-19T01:24:35
