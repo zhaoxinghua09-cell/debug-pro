@@ -4,6 +4,20 @@
 
 Triage-first debugging: locate the failing layer (input / environment / dependency / logic) before proposing any fix, then minimize, verify and regress.
 
+## 已上架 / Published on LobeHub
+
+[![verify](https://github.com/zhaoxinghua09-cell/debug-pro/actions/workflows/verify.yml/badge.svg)](https://github.com/zhaoxinghua09-cell/debug-pro/actions/workflows/verify.yml)
+
+- 市场页 / Marketplace: https://lobehub.com/skills/zhaoxinghua09-cell-debug-pro
+- 安装标识符 / Identifier: `zhaoxinghua09-cell-debug-pro`
+- 安装 / Install:
+
+```bash
+npx -y @lobehub/market-cli skills install zhaoxinghua09-cell-debug-pro --agent codex
+```
+
+- 审计报告 / Audit report: [`AUDIT-REPORT.md`](AUDIT-REPORT.md)（自跑，未经第三方；重跑可推翻）
+
 ## 快速开始 / Quick start
 
 ```bash
