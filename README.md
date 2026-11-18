@@ -1,5 +1,8 @@
 # debug-pro · 排障专家
 
+**skills.sh 页面**: https://skills.sh/zhaoxinghua09-cell/debug-pro ｜ `npx skills add zhaoxinghua09-cell/debug-pro`
+
+
 先定位再动手的排障流程：先把故障钉在某一层（输入/环境/依赖/逻辑），再最小化、验证、回归。没有日志与复现步骤就不给根因。
 
 Triage-first debugging: locate the failing layer (input / environment / dependency / logic) before proposing any fix, then minimize, verify and regress.
