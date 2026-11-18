@@ -1,5 +1,12 @@
 # debug-pro · 排障专家
 
+<!-- LGD-DIFF -->
+**Every triage verdict points at a line in your log — no guessed root cause.**
+
+分诊结论（异常类型 / 栈首帧 / 退出码）逐项标注日志出处，可逐条回原文核对；拿不出出处的结论不输出。
+复现：`python demo/run_demo.py`，见 `demo/SAMPLE-IO.md` 的实际输出。
+<!-- /LGD-DIFF -->
+
 **skills.sh 页面**: https://skills.sh/zhaoxinghua09-cell/debug-pro ｜ `npx skills add zhaoxinghua09-cell/debug-pro`
 
 
