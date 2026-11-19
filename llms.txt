@@ -41,3 +41,18 @@ An evidence table (exception type, last stack frame, exit code, HTTP status, tim
 ## Evaluation registry / 爆款清单
 Audited against six dimensions; passing packages are registered at https://github.com/zhaoxinghua09-cell/lgd-hit-list with score and receipt.
 经六维审计通过后登记于爆款清单 https://github.com/zhaoxinghua09-cell/lgd-hit-list，附分数与回执。
+
+<!-- LGD-INTENTS -->
+
+## Ask it like this / 这样问它
+
+Each line is phrased the way a person or an agent would actually search it. Routing target in parentheses.
+每一行都按「人和 AI 会怎么搜」来写，括号里是它在包内对应的入口。
+
+- Find which layer a failure is in before changing any code / 先定位故障在哪一层，再改代码  (`entrypoints[0]`)
+- My build fails and I need the failing layer pinpointed / 构建失败，需要定位到具体层  (`entrypoints[0]`)
+- Capture a redacted environment snapshot for a bug report / 为缺陷报告采集已脱敏的环境快照  (`entrypoints[1]`)
+- Score how reproducible my bug report actually is / 评估我的缺陷报告到底有多可复现  (`entrypoints[2]`)
+- A regression appeared and I must decide code vs environment vs data / 出现回归，需判断是代码、环境还是数据问题  (`use_when_en`)
+
+<!-- /LGD-INTENTS -->
