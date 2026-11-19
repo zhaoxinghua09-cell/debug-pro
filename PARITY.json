@@ -1,0 +1,19 @@
+{
+  "schema": "lgd-parity-v1",
+  "skill": "debug-pro",
+  "published": {
+    "path": "SKILL.md",
+    "sha256": "bb182e9eec568a34bdc34448b34d65059ad51fce0cecff4f2829023ce2841220",
+    "bytes": 7754,
+    "lines": 107
+  },
+  "original": {
+    "path": "references/original-SKILL.md",
+    "sha256": "f9f978c11485ed2a5158ba429e664b42b05a5757618dcd309486ea22829809fa",
+    "bytes": 18058,
+    "lines": 307
+  },
+  "original_matches_local_source": true,
+  "relation": "publish SKILL.md is a condensed rewrite (v2.1.0-slim), not an excerpt; the verbatim original ships alongside it so users can verify both",
+  "check": "sha256(references/original-SKILL.md) == original.sha256"
+}
